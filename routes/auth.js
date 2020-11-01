@@ -13,4 +13,6 @@ router.get('/viewReview/:id', dataController.viewReview);
 router.get('/UserReviews/:id', dataController.allUserReviews);
 router.get('/RestaurantReviews/:id', dataController.allRestaurantReviews);
 router.get('/allReviews', dataController.allReviews);
+router.post('/cart', dataController.cart);
+
 module.exports = router; 
