@@ -14,5 +14,7 @@ router.get('/UserReviews/:id', dataController.allUserReviews);
 router.get('/RestaurantReviews/:id', dataController.allRestaurantReviews);
 router.get('/allReviews', dataController.allReviews);
 router.post('/cart', dataController.cart);
+router.post('/placeOrder', dataController.placeOrder);
+router.post('/payment', dataController.payment);
 
 module.exports = router; 
