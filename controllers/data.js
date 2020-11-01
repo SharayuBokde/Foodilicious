@@ -94,11 +94,11 @@ exports.cart = (req,res) => {
     })
 }
 
-/*
 //Place Order
 exports.placeOrder = (req,res) => {
-    const {userid,foodid,quantity} = req.body;
-    db.query(`select `,async (err,result) => {
+    const {restaurantid,userid} = req.body;
+    db.query(`insert into orders (cost, restaurantid, statusOrder, userid) values((select sum(cost) from cart where userid=${userid}), ${restaurantid}, 'Placed Order', ${userid});
+    `,async (err,result) => {
         if(err) 
             console.log(err);
         
@@ -106,4 +106,29 @@ exports.placeOrder = (req,res) => {
             res.status(200).json(result);
     })
 }
-*/
+
+//Payment
+exports.payment = (req,res) => {
+    const {orderid} = req.body;
+    db.query(`insert into payment (payment_amount,orderid) values((select cost from orders where orderid=${orderid}),${orderid})`,async (err,result) => {
+        if(err){ 
+            console.log(err);
+            return;
+        }
+        else{
+            res.status(200).json(result);
+            return;
+        }
+    });
+    db.query(`update orders set statusOrder='Payment Successful' where orderid=${orderid}`,async (err,result) => {
+        if(err){ 
+            console.log(err);
+            return;
+        }
+        else{
+            res.status(200).json(result);
+            return;
+        }
+    });
+}
+
