@@ -81,3 +81,29 @@ exports.allReviews = (req,res) => {
             res.status(200).json(result);
     })
 }
+
+//Cart
+exports.cart = (req,res) => {
+    const {userid,foodid,quantity} = req.body;
+    db.query(`insert into cart (userid, foodid, quantity, cost) values (${userid},${foodid},${quantity},(select ${quantity}*price from fooditem where foodid=${foodid}))`,async (err,result) => {
+        if(err) 
+            console.log(err);
+        
+        else
+            res.status(200).json(result);
+    })
+}
+
+/*
+//Place Order
+exports.placeOrder = (req,res) => {
+    const {userid,foodid,quantity} = req.body;
+    db.query(`select `,async (err,result) => {
+        if(err) 
+            console.log(err);
+        
+        else
+            res.status(200).json(result);
+    })
+}
+*/
