@@ -1,18 +1,24 @@
 const express = require('express');
 const mysql = require('mysql');
-
+var cors = require('cors')
 const dotenv = require("dotenv");
 const cookieParser = require("cookie-parser");
 const app=express();
 dotenv.config({ path:'./.env'});
 
 // Create connection
+app.use(cors())
+
 const db = mysql.createConnection({
+    
         host     :  process.env.DATABASE_HOST,
         user     : process.env.DATABASE_USER,
         password : process.env.DATABASE_PASSWORD,
-        database : process.env.DATABASE      
+        database : process.env.DATABASE
+      
 });
+
+
 
 app.use(express.urlencoded({extended : false}));
 
@@ -28,6 +34,7 @@ db.connect((err)=>{
     else{
       console.log('Mysql connected........');
     }
+  
 })
 
 app.listen('5000',()=>{
@@ -35,5 +42,5 @@ app.listen('5000',()=>{
 });
 
 //Routes
-app.use('/auth',require('./routes/auth'));
 
+app.use('/auth',require('./routes/auth'));
