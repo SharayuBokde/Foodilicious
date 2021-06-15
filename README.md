@@ -1,4 +1,4 @@
-<h3 align="center"><img src="Tourizto Images/brand.png" height=50 width=auto></h3>
+<h3 align="center"><img src="images/brand.png" height=50 width=auto></h3>
 <h3 align="center">WD-DBMS Semester-V Mini Project</h3>
 <h4>Team</h5>
 <ul>
@@ -15,7 +15,7 @@ collaboration space for the restaurants where they can share their menus that th
 <ul>
   <li>Operating System: Windows</li>
   <li>Programming language: JavaScript and SQL</li>
-  <li>Front-End Framework: ReactJS, Bootstrap</li>
+  <li>Front-End Framework: React,Redux,Bootstrap</li>
   <li>Back-End Framework: NodeJS</li>
   <li>Database Framework: MySQL Workbench</li>
   <li>Database: MySQL</li>
@@ -34,84 +34,67 @@ collaboration space for the restaurants where they can share their menus that th
       <th>Name</th>
       <th>Description</th>
    </tr>
+     
    <tr>
       <td><b>Home</b></td>
-      <td><p>This page provides concise information about the features of the website. The navigation bar contains link to all the other section of the website. The main page displays recommendations with the best deals provided by the tours and Travel Company. Users can login into their accounts and benefit from a wide range of discounts provided by the website. 
-Admin can add new itinerary by forms. This is explained in later under Admin.</p></td>
+      <td><p>This page provides concise information about the features of the website. The homepage displays all collections, popular restaurants, popular cuisines and popular locations. We can also search the best foods and drinks using the Search bar. User needs to login into their accounts in order to place an order.</p></td>
    </tr>
   <tr>
-      <td><b>About</b></td>
-      <td><p>This page provides information about the development of the company and its operations.</p></td>
+      <td><b>Collections</b></td>
+      <td><p>This page provides category wise list of the restaurants. The categories include collections, popular restaurants, popular cuisines and popular locations. We can choose from a wide range of restaurants, cafes from a particular category. </p></td>
    </tr>
   <tr>
-      <td><b>Contact</b></td>
-      <td><p>This page provides contact information like phone number, email-id etc., to the users.</p></td>
+      <td><b>Restaurant Overview page</b></td>
+      <td><p>This page provides information of a Restaurant like the timings when it will be open, its address, mobile no. of restaurant, its popular dishes, what people know and like about the restaurant and average cost for 2 people.</p></td>
    </tr>
   <tr>
-      <td><b>Itenierary</b></td>
-      <td><p>This page provides complete information of a desired destination. It provides the customer with overview, highlights, itinerary, estimated price and inquiry option. It also specifies all the terms and conditions.
-The admin at the same time can add, update and delete a place. To add a place the admin needs to enter information as specified in the model.</p></td>
+      <td><b>Order Online page</b></td>
+      <td><p>This page provides the menu of Restaurant. We can choose from a variety of options. The minimum cost to place an order is Rs. 100. You can click on + button to add multiple items in the cart and – button to remove an item from cart. The total cost will be displayed below and it will be updated after every addition or removal of items from the cart. </p></td>
    </tr>
   <tr>
-      <td><b>Booking and Payment</b></td>
-      <td><p>Booking page requires the user to enter the details such as name email-id, phone number, residence area, arrival and departure dates, number of adults and children, accommodation and food preference details. These data are stored in the database. According to the data filled by the customer, total price is calculated by the system.</p>
-<p>Before proceeding for payment the user is redirected to next page where he/she can check the total price and other details. Then the user can finally proceed to the payment gateway.</p>
-<p>Payment page requires the user to enter the details of the credit card necessary to make an online payment.</p>
-<p>After successful payment, you are redirected to the page where you cant opt for a confirmation email.</p>
-<p>Once the payment and confirmation email is received you are then redirected to My Bookings page where you can view all you bookings from past.</p>
+      <td><b>Payment</b></td>
+      <td><p>We land on this page only after we click on the proceed to place order button in order online page. This page gives us the detailed list of the items from cart which we wish to order along with its quantity, price and total cost. We can also edit the address for the order to be delivered. Then after confirming the address we get the option of selecting from 3 different payment modes which are Debit Card, Credit Card and Cash on Delivery. After filling the details we can place the order.  </p>
     </td>
    </tr>
   <tr>
-      <td><b>Travelouge</b></td>
-      <td><p>Travelouge is an addition feature in our website which provides the user with information about the different highlights of India. Blogs simply makes the selection process a bit simpler and efficient for the user.</p>
-<p>Admin needs to enter the images as well as description which are stored in the database. The user can view and like the blog. </p></td>
+      <td><b>Review Page</b></td>
+      <td><p>This page of a restaurant displays all the reviews of the customers who all visited this restaurant. We can also add a review based on our experience at restaurant, its ambience etc. We can also rate the restaurant while adding review.  </p></td>
    </tr>
   <tr>
-      <td><b>Review</b></td>
-      <td><p>A review enables the user to share their travel experience with other users. User can refer to the review posted by other users in their booking process.</p></td>
+      <td><b>Profile Page</b></td>
+      <td><p>TThe profile page of a user displays user’s information like username, email address, delivery address, all the reviews written by the user and user’s past orders details etc. If a user forgot to place the order ie if the status of order is pending then on clicking that order, he/she will be directed to the payment page of the restaurant. Hence he can complete the payment process and the order status will be changed to ‘Order Placed’. If the order is already placed, the user can view the details of the order like list of items, total cost and the date.</p></td>
    </tr>
-  <tr>
-      <td><b>Profile</b></td>
-      <td><p>This page displays the user’s profile which contains username, email, blogs posted by the user and reviews posted by the user.</p></td>
-   </tr>
-  <tr>
-      <td><b>Chatbot</b></td>
-      <td><p>The purpose of this feature is to answer the queries faced the user during their booking process. It asks for basic details like name, destination for tour, arrival and departure dates, email address from where we will be able to communicate with the user for further procedures.</p></td>
-   </tr>
+  
 </table>
 
 <h4>Images:</h4>
+<b>Login</b>
+<h3 align="center"><img src="images/login.png" height=auto width=100%></h3>
+<b>Signup</b>
+<h3 align="center"><img src="images/signup.png" height=auto width=100%></h3>
 <b>Home Page</b>
-<h3 align="center"><img src="Tourizto Images/homepage.png" height=auto width=75%></h3>
+<h3 align="center"><img src="images/Home.png" height=auto width=100%></h3>
 
-<b>About page</b>
-<h3 align="center"><img src="Tourizto Images/about.png" height=auto width=75%></h3>
+<b>Collection's Page</b>
 
-<b>Contact page</b>
-<h3 align="center"><img src="Tourizto Images/contact.png" height=auto width=75%></h3>
+<h3 align="center"><img src="images/collections.png" height=auto width=100%></h3>
 
-<b>Itenierary</b>
-<h3 align="center"><img src="Tourizto Images/itenary.png" height=auto width=75%></h3>
+<b>Restaurant Overview page</b>
 
-<b>Booking and Payment</b>
-<h3 align="center"><img src="Tourizto Images/booking.png" height=auto width=75%></h3>
-<h3 align="center"><img src="Tourizto Images/checkout.png" height=auto width=75%></h3>
-<h3 align="center"><img src="Tourizto Images/payment.png" height=auto width=75%></h3>
-<h3 align="center"><img src="Tourizto Images/email.png" height=auto width=75%></h3>
-<h3 align="center"><img src="Tourizto Images/gmail.png" height=auto width=75%></h3>
+<h3 align="center"><img src="images/overview.png" height=auto width=100%></h3>
 
-<b>My Bookings</b>
-<h3 align="center"><img src="Tourizto Images/mybookings.png" height=auto width=75%></h3>
+<b>Order Online page</b>
 
-<b>Travelouge</b>
-<h3 align="center"><img src="Tourizto Images/travelouge.png" height=auto width=75%></h3>
-<h3 align="center"><img src="Tourizto Images/blog.png" height=auto width=75%></h3>
+<h3 align="center"><img src="images/orderOnline.png" height=auto width=100%></h3>
 
-<b>Review</b>
-<h3 align="center"><img src="Tourizto Images/review.png" height=auto width=75%></h3>
+<b>Restaurant Review Page</b>
+
+<h3 align="center"><img src="images/restReview.png" height=auto width=100%></h3>
+
+<b>Payment</b>
+
+<h3 align="center"><img src="images/payment.png" height=auto width=100%></h3>
 
 <b>Profile</b>
-<h3 align="center"><img src="Tourizto Images/profile.png" height=auto width=75%></h3>
 
-<b>Chatbot</b>
-<h3 align="center"><img src="Tourizto Images/chatbot.png" height=auto width=75%></h3>
+<h3 align="center"><img src="images/profile.png" height=auto width=100%></h3>
