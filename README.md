@@ -9,8 +9,6 @@
 <br>
 <p>Food Delivery Web Application - Foodilicious, is a one stop destination for ordering food online and know about every restaurant. We have created a platform to provide a
 collaboration space for the restaurants where they can share their menus that they have for various cuisines with the customers. We have created a platform for customers as well so that they can directly login and have their own profile and get recommendations accordingly and avail exciting offers on the website. A review section has been created so that the customers can have their own space to share the experiences of the various restaurants that they have tried. Our main goal was to give every restaurant a safe haven where everyone of the customers and restaurants are in a closed knit relation, reducing latency and preventing the usage of several social media means which can easily get confusing, thus ensuring customers never miss any update.</p>
-<br>
-
 <h3 align="center"><img src="images/foodilicious-gif.gif" height=auto width=80%></h3>
 
 <h3>Software Requirements: </h3>
