@@ -1,99 +1,70 @@
-<h3 align="center"><img src="images/brand.png" height=50 width=auto></h3>
-<h3 align="center">WD-DBMS Semester-V Mini Project</h3>
-<h4>Team</h5>
-<ul>
-  <li>Rutu Gaglani</li>
-  <li>Saurav Tiwari</li>
-  <li>Sharayu Bokde</li>
-</ul>
-<br>
-<p>Food Delivery Web Application - Foodilicious, is a one stop destination for ordering food online and know about every restaurant. We have created a platform to provide a
-collaboration space for the restaurants where they can share their menus that they have for various cuisines with the customers. We have created a platform for customers as well so that they can directly login and have their own profile and get recommendations accordingly and avail exciting offers on the website. A review section has been created so that the customers can have their own space to share the experiences of the various restaurants that they have tried. Our main goal was to give every restaurant a safe haven where everyone of the customers and restaurants are in a closed knit relation, reducing latency and preventing the usage of several social media means which can easily get confusing, thus ensuring customers never miss any update.</p>
-<h3 align="center"><img src="images/foodilicious-gif.gif" height=auto width=80%></h3>
-<h3>Software Requirements: </h3>
-<ul>
-  <li>Operating System: Windows</li>
-  <li>Programming language: JavaScript and SQL</li>
-  <li>Front-End Framework: React,Redux,Bootstrap</li>
-  <li>Back-End Framework: NodeJS</li>
-  <li>Database Framework: MySQL Workbench</li>
-  <li>Database: MySQL</li>
-  <li>Front-End: </li>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Javascript</li>
-  </ul>
-</ul>
-<br>
-
-<h4>Pages :</h4>
-<table>
-  <tr>
-      <th>Name</th>
-      <th>Description</th>
-   </tr>
-     
-   <tr>
-      <td><b>Home</b></td>
-      <td><p>This page provides concise information about the features of the website. The homepage displays all collections, popular restaurants, popular cuisines and popular locations. We can also search the best foods and drinks using the Search bar. User needs to login into their accounts in order to place an order.</p></td>
-   </tr>
-  <tr>
-      <td><b>Collections</b></td>
-      <td><p>This page provides category wise list of the restaurants. The categories include collections, popular restaurants, popular cuisines and popular locations. We can choose from a wide range of restaurants, cafes from a particular category. </p></td>
-   </tr>
-  <tr>
-      <td><b>Restaurant Overview page</b></td>
-      <td><p>This page provides information of a Restaurant like the timings when it will be open, its address, mobile no. of restaurant, its popular dishes, what people know and like about the restaurant and average cost for 2 people.</p></td>
-   </tr>
-  <tr>
-      <td><b>Order Online page</b></td>
-      <td><p>This page provides the menu of Restaurant. We can choose from a variety of options. The minimum cost to place an order is Rs. 100. You can click on + button to add multiple items in the cart and – button to remove an item from cart. The total cost will be displayed below and it will be updated after every addition or removal of items from the cart. </p></td>
-   </tr>
-  <tr>
-      <td><b>Payment</b></td>
-      <td><p>We land on this page only after we click on the proceed to place order button in order online page. This page gives us the detailed list of the items from cart which we wish to order along with its quantity, price and total cost. We can also edit the address for the order to be delivered. Then after confirming the address we get the option of selecting from 3 different payment modes which are Debit Card, Credit Card and Cash on Delivery. After filling the details we can place the order.  </p>
-    </td>
-   </tr>
-  <tr>
-      <td><b>Review Page</b></td>
-      <td><p>This page of a restaurant displays all the reviews of the customers who all visited this restaurant. We can also add a review based on our experience at restaurant, its ambience etc. We can also rate the restaurant while adding review.  </p></td>
-   </tr>
-  <tr>
-      <td><b>Profile Page</b></td>
-      <td><p>TThe profile page of a user displays user’s information like username, email address, delivery address, all the reviews written by the user and user’s past orders details etc. If a user forgot to place the order ie if the status of order is pending then on clicking that order, he/she will be directed to the payment page of the restaurant. Hence he can complete the payment process and the order status will be changed to ‘Order Placed’. If the order is already placed, the user can view the details of the order like list of items, total cost and the date.</p></td>
-   </tr>
+<br />
+<p align="center">
+  <img src="images/brand.png" alt="Logo" height=50 width=auto>
   
-</table>
+  <p align="center">
+    A web app that lets you order food online and get it delivered at your convenience!
+    <br />
+    <a href="https://github.com/SharayuBokde/Foodilicious"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    View Demo
+    ·
+    <a href="https://github.com/SharayuBokde/Foodilicious/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/SharayuBokde/Foodilicious/issues">Request Feature</a>
+  </p>
+</p>
 
-<h4>Images:</h4>
-<b>Login</b>
-<h3 align="center"><img src="images/login.png" height=auto width=100%></h3>
-<b>Signup</b>
-<h3 align="center"><img src="images/signup.png" height=auto width=100%></h3>
-<b>Home Page</b>
-<h3 align="center"><img src="images/Home.png" height=auto width=100%></h3>
+## About the Project
+Food Delivery Web Application - Foodilicious, is a one stop destination for ordering food online and know about every restaurant. We have created a platform to provide a
+collaboration space for the restaurants where they can share their menus that they have for various cuisines with the customers. We have created a platform for customers as well so that they can directly login and have their own profile and get recommendations accordingly and avail exciting offers on the website. A review section has been created so that the customers can have their own space to share the experiences of the various restaurants that they have tried. Our main goal was to give every restaurant a safe haven where everyone of the customers and restaurants are in a closed knit relation, reducing latency and preventing the usage of several social media means which can easily get confusing, thus ensuring customers never miss any update.
 
-<b>Collection's Page</b>
+<h3 align="center"><img src="images/foodilicious-gif.gif" height=auto width=90%></h3>
 
-<h3 align="center"><img src="images/collections.png" height=auto width=100%></h3>
+## Built with 🔨
 
-<b>Restaurant Overview page</b>
+* Operating System: Windows
+* Programming language: JavaScript and SQL
+* Front-End Framework: React, Redux, Bootstrap
+* Back-End Framework: NodeJS
+* Database Framework: MySQL Workbench
+* Database: MySQL
+* Front-End: 
+  * HTML
+  * CSS
+  * Javascript
 
-<h3 align="center"><img src="images/overview.png" height=auto width=100%></h3>
+## Pages 
 
-<b>Order Online page</b>
+* Home - This page provides concise information about the features of the website. The homepage displays all collections, popular restaurants, popular cuisines and popular locations. We can also search the best foods and drinks using the Search bar. User needs to login into their accounts in order to place an order.
 
-<h3 align="center"><img src="images/orderOnline.png" height=auto width=100%></h3>
+* Collections - This page provides category wise list of the restaurants. The categories include collections, popular restaurants, popular cuisines and popular locations. We can choose from a wide range of restaurants, cafes from a particular category. 
 
-<b>Restaurant Review Page</b>
+* Restaurant Overview page - This page provides information of a Restaurant like the timings when it will be open, its address, mobile no. of restaurant, its popular dishes, what people know and like about the restaurant and average cost for 2 people.
 
-<h3 align="center"><img src="images/restReview.png" height=auto width=100%></h3>
+* Order Online page - This page provides the menu of Restaurant. We can choose from a variety of options. The minimum cost to place an order is Rs. 100. You can click on + button to add multiple items in the cart and – button to remove an item from cart. The total cost will be displayed below and it will be updated after every addition or removal of items from the cart. 
 
-<b>Payment</b>
+* Payment - We land on this page only after we click on the proceed to place order button in order online page. This page gives us the detailed list of the items from cart which we wish to order along with its quantity, price and total cost. We can also edit the address for the order to be delivered. Then after confirming the address we get the option of selecting from 3 different payment modes which are Debit Card, Credit Card and Cash on Delivery. After filling the details we can place the order. 
 
-<h3 align="center"><img src="images/payment.png" height=auto width=100%></h3>
+* Review Page - This page of a restaurant displays all the reviews of the customers who all visited this restaurant. We can also add a review based on our experience at restaurant, its ambience etc. We can also rate the restaurant while adding review. 
 
-<b>Profile</b>
+* Profile Page - The profile page of a user displays user’s information like username, email address, delivery address, all the reviews written by the user and user’s past orders details etc. If a user forgot to place the order ie if the status of order is pending then on clicking that order, he/she will be directed to the payment page of the restaurant. Hence he can complete the payment process and the order status will be changed to ‘Order Placed’. If the order is already placed, the user can view the details of the order like list of items, total cost and the date.
 
-<h3 align="center"><img src="images/profile.png" height=auto width=100%></h3>
+## Contributing 🤝
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Developed with ❤️ by
+
+**_Rutu Gaglani_** - [Github](https://github.com/rutugaglani) - Frontend & Graphic Design
+
+**_Saurav Tiwari_** - [Github](https://github.com/sauravtiwari27) - Frontend & Graphic Design
+
+**_Sharayu Bokde_** - [Github](https://github.com/SharayuBokde) - Full-stack & Database
+
