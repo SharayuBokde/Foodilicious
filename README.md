@@ -62,9 +62,9 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Developed with ❤️ by
 
-**_Rutu Gaglani_** - [Github](https://github.com/rutugaglani) - Frontend & Graphic Design
+**_Rutu Gaglani_** - [Github](https://github.com/rutugaglani) - Full-stack
 
-**_Saurav Tiwari_** - [Github](https://github.com/sauravtiwari27) - Frontend & Graphic Design
+**_Saurav Tiwari_** - [Github](https://github.com/sauravtiwari27) - Backend
 
-**_Sharayu Bokde_** - [Github](https://github.com/SharayuBokde) - Full-stack & Database
+**_Sharayu Bokde_** - [Github](https://github.com/SharayuBokde) - Backend
 
